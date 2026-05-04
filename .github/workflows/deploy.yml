@@ -38,7 +38,7 @@ jobs:
             echo "Running new container..."
             docker run -d \
               --name backend-container \
-              -p 5000:5000 \
+              -p 5000:3000 \
               backend-app
 
             echo "Deployment completed!"
